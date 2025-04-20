@@ -2,7 +2,7 @@
   "name": "cha-theme",
   "displayName": "cha theme",
   "description": "Would you like to come in and have a cup of tea?",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "cha-theme",
   "maintainers": [
     "reidark"
@@ -24,7 +24,7 @@
   },
   "icon": "assets/icon.png",
   "galleryBanner": {
-    "color": "#222222",
+    "color": "#333333",
     "theme": "dark"
   },
   "keywords": [

@@ -15,7 +15,7 @@ It is a theme designed for calm times, following the tranquility of having a cup
 **From VS Code Marketplace**
 
 1. Go to Extensions
-2. Search for "cha theme"
+2. Search for "cha theme" ([link](https://marketplace.visualstudio.com/items?itemName=cha-theme.cha-theme))
 3. Click Install
 
 ## Usage

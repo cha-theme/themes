@@ -1,9 +1,9 @@
 {
 	"name": "cha",
   "author": "reidark",
-  "maintainer": "reidark",  
+  "maintainer": "reidark",
   "description": "Would you like to come in and have a cup of tea?",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "CC0-1.0",
   "repository": {
     "type": "git",
@@ -11,25 +11,18 @@
   },
   "semanticHighlighting": true,
 	"colors": {
-		// Base UI
 		"foreground": "#C2C2B0",
 		"editor.background": "#222222",
 		"editor.foreground": "#C2C2B0",
 		"editorLineNumber.foreground": "#666666",
 		"editorLineNumber.activeForeground": "#C2C2B0",
 		"editorCursor.foreground": "#C2C2B0",
-		
-		// Selection
 		"editor.selectionBackground": "#5F875F40",
 		"editor.selectionHighlightBackground": "#5F875F30",
 		"editor.inactiveSelectionBackground": "#5F875F20",
-		
-		// Find
 		"editor.findMatchBackground": "#C9A55450",
 		"editor.findMatchHighlightBackground": "#C9A55430",
 		"editor.findRangeHighlightBackground": "#5F875F20",
-		
-		// Bracket pair colorization
 		"editorBracketHighlight.foreground1": "#A38A45",
 		"editorBracketHighlight.foreground2": "#A38A45",
 		"editorBracketHighlight.foreground3": "#A38A45",
@@ -37,73 +30,49 @@
 		"editorBracketHighlight.foreground5": "#A38A45",
 		"editorBracketHighlight.foreground6": "#A38A45",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#DD100C",
-		
-		// Word Highlighting
 		"editor.wordHighlightBackground": "#BB774420",
 		"editor.wordHighlightStrongBackground": "#BB774440",
-		
-		// Activity Bar
 		"activityBar.background": "#222222",
 		"activityBar.foreground": "#C2C2B0",
 		"activityBar.inactiveForeground": "#666666",
 		"activityBarBadge.background": "#5F875F",
 		"activityBarBadge.foreground": "#FFFFFF",
-		
-		// Sidebar
 		"sideBar.background": "#1E1E1E",
 		"sideBar.foreground": "#C2C2B0",
 		"sideBarTitle.foreground": "#C2C2B0",
 		"sideBarSectionHeader.background": "#222222",
 		"sideBarSectionHeader.foreground": "#C2C2B0",
-		
-		// Status Bar
 		"statusBar.background": "#222222",
 		"statusBar.foreground": "#C2C2B0",
 		"statusBar.debuggingBackground": "#BB7744",
 		"statusBar.debuggingForeground": "#FFFFFF",
 		"statusBar.noFolderBackground": "#222222",
-		
-		// Title Bar
 		"titleBar.activeBackground": "#222222",
 		"titleBar.activeForeground": "#C2C2B0",
 		"titleBar.inactiveBackground": "#1E1E1E",
 		"titleBar.inactiveForeground": "#666666",
-		
-		// Tabs
 		"tab.activeBackground": "#2A2A2A",
 		"tab.activeForeground": "#C2C2B0",
 		"tab.inactiveBackground": "#1E1E1E",
 		"tab.inactiveForeground": "#666666",
-		
-		// Editor Groups & Tabs
 		"editorGroup.border": "#1E1E1E",
 		"editorGroupHeader.tabsBackground": "#1E1E1E",
-		
-		// Input Control
 		"input.background": "#1E1E1E",
 		"input.foreground": "#C2C2B0",
 		"input.placeholderForeground": "#666666",
 		"inputOption.activeBorder": "#5F875F",
-		
-		// Panel
 		"panel.background": "#222222",
 		"panel.border": "#1E1E1E",
 		"panelTitle.activeForeground": "#C2C2B0",
 		"panelTitle.inactiveForeground": "#666666",
-		
-		// Dropdown
 		"dropdown.background": "#1E1E1E",
 		"dropdown.foreground": "#C2C2B0",
-		
-		// Lists and Trees
 		"list.activeSelectionBackground": "#5F875F40",
 		"list.activeSelectionForeground": "#C2C2B0",
 		"list.inactiveSelectionBackground": "#5F875F20",
 		"list.inactiveSelectionForeground": "#C2C2B0",
 		"list.hoverBackground": "#5F875F20",
 		"list.highlightForeground": "#5F875F",
-		
-		// Git colors
 		"gitDecoration.addedResourceForeground": "#5F875F",
 		"gitDecoration.modifiedResourceForeground": "#C9A554",
 		"gitDecoration.untrackedResourceForeground": "#5F875F",
@@ -111,20 +80,12 @@
 		"gitDecoration.deletedResourceForeground": "#685742",
 		"gitDecoration.ignoredResourceForeground": "#666666",
 		"gitDecoration.stageModifiedResourceForeground": "#AE9164",
-		
-		// Button
 		"button.background": "#5F875F",
 		"button.foreground": "#FFFFFF",
 		"button.hoverBackground": "#5F875FCC",
-		
-		// Badge
 		"badge.background": "#5F875F",
 		"badge.foreground": "#FFFFFF",
-		
-		// Progress Bar
 		"progressBar.background": "#5F875F",
-		
-		// Peek View
 		"peekView.border": "#5F875F",
 		"peekViewEditor.background": "#1E1E1E",
 		"peekViewEditor.matchHighlightBackground": "#C9A55450",
@@ -132,13 +93,10 @@
 		"peekViewResult.matchHighlightBackground": "#C9A55450",
 		"peekViewResult.selectionBackground": "#5F875F40",
 		"peekViewTitle.background": "#222222",
-		
-		// Diff Editor
 		"diffEditor.insertedTextBackground": "#5F875F20",
 		"diffEditor.removedTextBackground": "#68574220"
 	},
 	"tokenColors": [
-		// General Programming
 		{
 			"name": "Comments",
 			"scope": [
@@ -169,8 +127,6 @@
 				"foreground": "#9B7E62"
 			}
 		},
-		
-		// Variables and Constants
 		{
 			"name": "Variables",
 			"scope": [
@@ -233,8 +189,6 @@
 				"foreground": "#947652"
 			}
 		},
-		
-		// Keywords and Control
 		{
 			"name": "Keywords",
 			"scope": [
@@ -286,8 +240,6 @@
 				"foreground": "#A38A45"
 			}
 		},
-		
-		// Types
 		{
 			"name": "Type Keywords",
 			"scope": [
@@ -342,8 +294,6 @@
 				"foreground": "#8DA26C"
 			}
 		},
-		
-		// Numbers and Constants
 		{
 			"name": "Numbers",
 			"scope": [
@@ -376,8 +326,6 @@
 				"foreground": "#D7C483"
 			}
 		},
-		
-		// Strings
 		{
 			"name": "Strings",
 			"scope": [
@@ -408,8 +356,6 @@
 				"foreground": "#C9A554"
 			}
 		},
-		
-		// Functions
 		{
 			"name": "Functions",
 			"scope": [
@@ -435,8 +381,6 @@
 				"foreground": "#78824B"
 			}
 		},
-		
-		// Classes
 		{
 			"name": "Classes",
 			"scope": [
@@ -468,8 +412,6 @@
 				"foreground": "#8DA26C"
 			}
 		},
-		
-		// HTML & XML
 		{
 			"name": "HTML Tags",
 			"scope": [
@@ -492,8 +434,6 @@
 				"foreground": "#D7C483"
 			}
 		},
-		
-		// CSS
 		{
 			"name": "CSS Properties",
 			"scope": [
@@ -527,8 +467,6 @@
 				"foreground": "#78824B"
 			}
 		},
-		
-		// JavaScript Specific
 		{
 			"name": "JavaScript Variables",
 			"scope": [
@@ -571,8 +509,6 @@
 				"foreground": "#685742"
 			}
 		},
-		
-		// JSON
 		{
 			"name": "JSON Key - Level 0",
 			"scope": [
@@ -654,8 +590,104 @@
 				"foreground": "#5F875F"
 			}
 		},
-		
-		// Markdown
+		{
+			"name": "TOML Comments",
+			"scope": [
+				"comment.line.number-sign.toml",
+				"punctuation.definition.comment.toml"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#666666"
+			}
+		},
+		{
+			"name": "TOML Table Name",
+			"scope": [
+				"entity.name.section.toml",
+				"entity.name.tag.toml"
+			],
+			"settings": {
+				"foreground": "#5F875F"
+			}
+		},
+		{
+			"name": "TOML Array of Tables Name",
+			"scope": [
+				"entity.name.section.array.table.toml"
+			],
+			"settings": {
+				"foreground": "#5F875F"
+			}
+		},
+		{
+			"name": "TOML Key",
+			"scope": [
+				"variable.other.key.toml"
+			],
+			"settings": {
+				"foreground": "#BB7744"
+			}
+		},
+		{
+			"name": "TOML String",
+			"scope": [
+				"string.quoted.double.toml",
+				"string.quoted.single.toml",
+				"string.literal.toml"
+			],
+			"settings": {
+				"foreground": "#5F875F"
+			}
+		},
+		{
+			"name": "TOML Number",
+			"scope": [
+				"constant.numeric.integer.toml",
+				"constant.numeric.float.toml"
+			],
+			"settings": {
+				"foreground": "#C9A554"
+			}
+		},
+		{
+			"name": "TOML Boolean",
+			"scope": [
+				"constant.language.boolean.toml"
+			],
+			"settings": {
+				"foreground": "#C9A554"
+			}
+		},
+		{
+			"name": "TOML Date/Time",
+			"scope": [
+				"constant.other.time.datetime.offset.toml",
+				"constant.other.time.datetime.local.toml",
+				"constant.other.time.date.local.toml",
+				"constant.other.time.time.local.toml",
+				"constant.other.date",
+				"constant.other.timestamp"
+			],
+			"settings": {
+				"foreground": "#C9A554"
+			}
+		},
+		{
+			"name": "TOML Punctuation",
+			"scope": [
+				"punctuation.definition.table.toml",
+				"punctuation.definition.table.begin.toml",
+				"punctuation.definition.table.end.toml",
+				"punctuation.definition.array.table.begin.toml",
+				"punctuation.definition.array.table.end.toml",
+				"punctuation.definition.array.toml",
+				"punctuation.separator.key-value.toml"
+			],
+			"settings": {
+				"foreground": "#A38A45"
+			}
+		},
 		{
 			"name": "Markdown - Plain",
 			"scope": [
@@ -852,8 +884,6 @@
 				"foreground": "#C2C2B0"
 			}
 		},
-		
-		// Git
 		{
 			"name": "Git Modified",
 			"scope": [
@@ -884,8 +914,6 @@
 				"foreground": "#5F875F"
 			}
 		},
-		
-		// Invalid
 		{
 			"name": "Invalid",
 			"scope": [
@@ -896,8 +924,6 @@
 				"foreground": "#685742"
 			}
 		},
-		
-		// URLs
 		{
 			"name": "URLs",
 			"scope": [
